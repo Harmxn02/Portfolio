@@ -57,7 +57,7 @@ const products = [
   
   export default function Inline() {
     return (
-      <div className="bg-white">
+      <div className="bg-white min-h-screen">
         <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
           {/* <h2 className="text-2xl font-extrabold tracking-tight text-gray-900">Customers also purchased</h2> */}
 
@@ -85,8 +85,8 @@ const products = [
                   </div>
                   <p className="text-sm font-medium text-gray-900">{product.price}</p>
                 </div>
-                <div className="flex flex-row pt-6 gap-4">
-                  <a href="www.google.com" target="_blank" className="text-white      font-semibold  bg-orange-600 p-2 rounded">Github</a>
+                <div className="flex flex-row pt-6 gap-4 justify-center">
+                  <a href="www.google.com" target="_blank" className="text-purple-700 font-semibold  bg-purple-200 p-2 rounded">Source code</a>
                   <a href="www.google.com" target="_blank" className="text-orange-700 font-semibold  bg-orange-100 p-2 rounded">Live Deployment</a>
                 </div>
               </div>
