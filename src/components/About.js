@@ -8,7 +8,7 @@ export default function About() {
                 <h2 className="font-bold text-xl pb-4">Personal Experience</h2>
                 <p className="pb-4">I started programming in May of 2020, after find out about Harvard's CS50. I was immediately hooked on coding, and decided right then and there I wanted to do this for a living. I got extremely lucky that I could turn my hobby into a profession, and that there's a specific University Degree for it.</p>
                 <p className="pb-4">I'm a first-year Computer Science student at HOWEST University of Applied Sciences. In my second year I will choose to specialize in <strong>Artificial Intelligence</strong>. I am extremely interested in this field and the opportunities it will give me.</p>
-                <p className="pb-4">I have an (for the time being) empty blog on Dev Community, which you can visit by clicking <a className="text-blue-600 hover:text-purple-600 font-semibold" href="https://dev.to/harmxn" target="_blank" rel="noreferrer">here</a>.</p>
+                <p className="pb-4">I have an (for the time being) empty blog on Dev Community, which you can visit by clicking <a className="text-orange-600 hover:text-purple-600 font-semibold" href="https://dev.to/harmxn" target="_blank" rel="noreferrer">here</a>.</p>
                 <div className="float-right">
                     <MaterialIconsReact icon="school" size="large"/>
                 </div>
@@ -55,8 +55,8 @@ export default function About() {
 
 
                 <p className="pb-5 pt-5">If you'd like to find out even more, my resume is linked below.</p>
-                <div className="animate-pulse">
-                    <a className="text-white font-bold bg-blue-500 hover:bg-blue-600 rounded-lg p-2 " 
+                <div>
+                    <a className="text-white font-bold bg-purple-500 hover:bg-blue-600 rounded-lg p-2 " 
                     href="https://resume.io/r/SU1DQos8n" target="_blank" rel="noreferrer">Resume</a>
                 </div>
                 
