@@ -7,9 +7,9 @@ import LOGO_NAME from "../logos/LOGO_NAME.png"
 
 
 const navigation = [
-  { name: 'Home', href: '#' },
-  { name: 'About', href: '#' },
-  { name: 'Projects', href: '#' },
+  { name: 'About', href: '#ABOUT' },
+  { name: 'Projects', href: '#PROJECTS' },
+  { name: 'Contact', href: '#CONTACT' },
 ]
 
 export default function Intro() {
@@ -54,9 +54,6 @@ export default function Intro() {
                       {item.name}
                     </a>
                   ))}
-                  <a href="www.google.be" className="font-bold p-2 rounded-xl text-orange-500 hover:bg-orange-500 hover:text-white">
-                    Contact
-                  </a>
                 </div>
               </nav>
             </div>
@@ -101,12 +98,7 @@ export default function Intro() {
                       </a>
                     ))}
                   </div>
-                  <a
-                    href="www.google.be"
-                    className="block w-full px-5 py-3 text-center font-medium text-orange-600 bg-gray-50 hover:bg-gray-100"
-                  >
-                    Log in
-                  </a>
+                  
                 </div>
               </Popover.Panel>
             </Transition>
