@@ -117,7 +117,7 @@ export default function Intro() {
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
-                    href="www.google.be"
+                    href="#PROJECTS"
                     className="w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-white bg-purple-500 md:py-4 md:text-lg md:px-10"
                   >
                     Projects
@@ -125,7 +125,7 @@ export default function Intro() {
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a
-                    href="www.google.be"
+                    href="#CONTACT"
                     className="w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-white bg-orange-500 md:py-4 md:text-lg md:px-10"
                   >
                     Contact
