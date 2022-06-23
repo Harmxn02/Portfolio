@@ -13,7 +13,7 @@ function App() {
         <About/>
         <SectionHeader section="PROJECTS" title="projects" desc="Here are some of my projects!"/>
         <Inline/>
-        <Footer/>
+        <Footer section="CONTACT"/>
     </div>
   );
 }
