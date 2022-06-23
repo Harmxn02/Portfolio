@@ -4,7 +4,7 @@ import MaterialIconsReact from "material-icons-react";
 export default function About() {
     return (
         <div className="flex flex-wrap justify-center min-h-screen mt-12">
-            <div className="text-gray-700 rounded-md shadow-2xl p-8 m-5 border-4 border-t-orange-600 w-screen max-w-xl h-fit space-y-4">
+            <div className="text-gray-700 rounded-md shadow-2xl p-8 m-5 border-4 border-t-orange-500 w-screen max-w-xl h-fit space-y-4">
                 <h2 className="font-bold text-xl pb-4">Personal Experience</h2>
                 <p className="pb-4">I started programming in May of 2020, after find out about Harvard's CS50. I was immediately hooked on coding, and decided right then and there I wanted to do this for a living. I got extremely lucky that I could turn my hobby into a profession, and that there's a specific University Degree for it.</p>
                 <p className="pb-4">I'm a first-year Computer Science student at HOWEST University of Applied Sciences. In my second year I will choose to specialize in <strong>Artificial Intelligence</strong>. I am extremely interested in this field and the opportunities it will give me.</p>
@@ -14,7 +14,7 @@ export default function About() {
                 </div>
             </div>
             
-            <div className="text-gray-700 rounded-md shadow-2xl p-8 m-5 border-4 border-t-purple-600 w-screen max-w-xl h-fit space-y-4">
+            <div className="text-gray-700 rounded-md shadow-2xl p-8 m-5 border-4 border-t-purple-500 w-screen max-w-xl h-fit space-y-4">
                 <h2 className="font-bold text-xl pb-4">Skills</h2>
                 <p className="font-medium text-gray-700 text-md">Front End</p>
                 <div className="flex gap-2 flex-wrap">
