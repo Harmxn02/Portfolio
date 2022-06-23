@@ -85,7 +85,7 @@ const products = [
                   </div>
                   <p className="text-sm font-medium text-gray-900">{product.price}</p>
                 </div>
-                <div className="flex flex-row pt-6 gap-4 justify-center">
+                <div className="flex flex-col text-center sm:flex-row pt-6 gap-4 justify-center">
                   <a href="www.google.com" target="_blank" className="text-purple-700 font-semibold  bg-purple-200 p-2 rounded">Source code</a>
                   <a href="www.google.com" target="_blank" className="text-orange-700 font-semibold  bg-orange-100 p-2 rounded">Live Deployment</a>
                 </div>
