@@ -44,11 +44,12 @@ export default function About() {
                     <p className="bg-gray-200 rounded p-2 text-xs font-medium hover:scale-105 ease-in-out duration-300">GitHub / GitLab</p>
                 </div>
 
-                <p className="font-medium text-gray-700 text-md">Design Tools</p>
+                <p className="font-medium text-gray-700 text-md">Development Tools</p>
                 <div className="flex gap-2 flex-wrap">
                     <p className="bg-gray-200 rounded p-2 text-xs font-medium hover:scale-105 ease-in-out duration-300">Figma</p>
                     <p className="bg-gray-200 rounded p-2 text-xs font-medium hover:scale-105 ease-in-out duration-300">Adobe XD</p>
                     <p className="bg-gray-200 rounded p-2 text-xs font-medium hover:scale-105 ease-in-out duration-300">Lucid Chart</p>
+                    <p className="bg-gray-200 rounded p-2 text-xs font-medium hover:scale-105 ease-in-out duration-300">Agile Methodologies</p>
                 </div>
 
 
