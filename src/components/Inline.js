@@ -69,8 +69,8 @@ const products = [
                   {/* <p className="text-sm font-medium text-gray-900">{product.price}</p> */}
                 </div>
                 <div className="flex flex-col text-center sm:flex-row pt-6 gap-4 justify-center">
-                  <a href={product.source} target="_blank" rel="noreferrer" className="text-purple-700 font-semibold  bg-purple-200 p-2 rounded">Source code</a>
-                  <a href={product.live}   target="_blank" rel="noreferrer" className="text-orange-700 font-semibold  bg-orange-100 p-2 rounded">Live Deployment</a>
+                  <a href={product.source} target="_blank" rel="noreferrer" className="text-purple-700 font-semibold  bg-purple-200 hover:bg-purple-300 p-2 rounded">Source code</a>
+                  <a href={product.live}   target="_blank" rel="noreferrer" className="text-orange-700 font-semibold  bg-orange-100 hover:bg-orange-200 p-2 rounded">Live Deployment</a>
                 </div>
               </div>
             ))}
