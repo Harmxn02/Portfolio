@@ -4,6 +4,7 @@ import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import LOGO from "../logos/LOGO.png"
 import LOGO_NAME from "../logos/LOGO_NAME.png"
+import Banner from "./Banner"
 // import online_stats from "../svg/online_stats.svg"
 // import reminder from "../svg/reminder.svg"
 import experience from "../svg/experience_design.svg"
@@ -19,6 +20,9 @@ const navigation = [
 export default function Intro() {
   return (
     <div className="min-h-screen relative bg-white overflow-hidden">
+
+      <Banner/>
+      
       <div className="max-w-7xl mx-auto">
         <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
           <svg
@@ -36,7 +40,7 @@ export default function Intro() {
               <nav className="relative flex items-center justify-between sm:h-10 lg:justify-between" aria-label="Global">
                 <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                   <div className="flex items-center justify-between w-full md:w-auto">
-                    <a href="www.google.be">
+                    <a href="#ABOUT">
                       <span className="sr-only">Harman</span>
                       <img
                         alt="Workflow"
