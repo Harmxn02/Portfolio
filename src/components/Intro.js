@@ -4,6 +4,10 @@ import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import LOGO from "../logos/LOGO.png"
 import LOGO_NAME from "../logos/LOGO_NAME.png"
+// import online_stats from "../svg/online_stats.svg"
+// import reminder from "../svg/reminder.svg"
+import experience from "../svg/experience_design.svg"
+
 
 
 const navigation = [
@@ -136,13 +140,14 @@ export default function Intro() {
           </main>
         </div>
       </div>
-      {/* <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+      <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 flex justify-center">
         <img
-          className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
+          className="lg:pl-32 lg:pt-36"
+          // className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+          src={experience}
           alt=""
         />
-      </div> */}
+      </div>
     </div>
   )
 }
