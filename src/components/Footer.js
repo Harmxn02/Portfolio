@@ -11,10 +11,10 @@ export default function Footer(props) {
           <p  className='text-xl text-center font-medium'>Here are some of my socials + email address</p>
           <p  className='text-xl text-center font-light pb-4'>Feel free to contact me</p>
           <div className='flex flex-row gap-8 py-4'>
-            <a href='https://www.linkedin.com/in/harmanpnahal/'   target="_blank" rel="noreferrer" ><FaLinkedin className='text-xl sm:text-2xl'/></a>
-            <a href='https://github.com/Harmxn02/'                target="_blank" rel="noreferrer" ><FaGithub   className='text-xl sm:text-2xl'/></a>
-            <a href='https://dev.to/harmxn'                       target="_blank" rel="noreferrer" ><FaDev      className='text-xl sm:text-2xl'/></a>
-            <a href='mailto:harman.pnahal@gmail.com'              target="_blank" rel="noreferrer" ><SiGmail    className='text-xl sm:text-2xl'/></a>
+            <a href='https://www.linkedin.com/in/harmanpnahal/'   target="_blank" rel="noreferrer" ><FaLinkedin className='text-xl sm:text-3xl md:text-4xl lg:text-5xl'/></a>
+            <a href='https://github.com/Harmxn02/'                target="_blank" rel="noreferrer" ><FaGithub   className='text-xl sm:text-3xl md:text-4xl lg:text-5xl'/></a>
+            <a href='https://dev.to/harmxn'                       target="_blank" rel="noreferrer" ><FaDev      className='text-xl sm:text-3xl md:text-4xl lg:text-5xl'/></a>
+            <a href='mailto:harman.pnahal@gmail.com'              target="_blank" rel="noreferrer" ><SiGmail    className='text-xl sm:text-3xl md:text-4xl lg:text-5xl'/></a>
           </div>
         </div>
       </header>
