@@ -17,7 +17,7 @@ export default function About() {
                     </div> */}
                 </div>
                 <div className="w-4/6 mr-12">
-                    <img src={profile}></img>
+                    <img src={profile} alt="person showing their skills"></img>
                 </div>
             </div>
             
@@ -73,7 +73,7 @@ export default function About() {
                     </div> */}
                 </div>
                 <div className="w-4/6">
-                    <img src={geniuses}></img>
+                    <img src={geniuses} alt="two geniuses looking at each other"></img>
                 </div>
             
                 
