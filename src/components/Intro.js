@@ -146,7 +146,7 @@ export default function Intro() {
       </div>
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 flex justify-center">
         <img
-          className="lg:pl-32 lg:pt-36"
+          className="lg:pl-32 lg:pt-36 w-4/5"
           // className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
           src={experience}
           alt=""
