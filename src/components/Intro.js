@@ -12,8 +12,8 @@ import experience from "../svg/experience_design.svg"
 
 
 const navigation = [
-  { name: 'About', href: '#ABOUT' },
   { name: 'Projects', href: '#PROJECTS' },
+  { name: 'About', href: '#ABOUT' },
   { name: 'Contact', href: '#CONTACT' },
 ]
 
@@ -133,10 +133,10 @@ export default function Intro() {
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a
-                    href="#CONTACT"
+                    href="https://resume.io/r/SU1DQos8n" target="_blank" rel='noreferrer'
                     className="w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-white bg-orange-500 md:py-4 md:text-lg md:px-10"
                   >
-                    Contact
+                    Resume
                   </a>
                 </div>
               </div>

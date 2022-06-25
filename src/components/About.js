@@ -5,7 +5,7 @@ import geniuses from "../svg/geniuses.svg"
 
 export default function About() {
     return (
-        <div className="flex flex-wrap justify-center min-h-screen mt-12 md:mt-36 gap-36 lg:gap-72">
+        <div className="flex flex-wrap justify-center min-h-screen mt-12 mb-64 md:mt-36 gap-36 lg:gap-72">
             <div className="flex flex-col xl:flex-row-reverse justify-between items-center xl:gap-0">
                 <div className="text-gray-700 rounded-md shadow-2xl p-8 border-4 border-t-orange-500 max-w-xl h-fit space-y-4">
                     <h2 className="font-bold text-xl pb-4">Personal Experience</h2>

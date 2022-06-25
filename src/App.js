@@ -9,10 +9,10 @@ function App() {
   return (
     <div className="App">
         <Intro></Intro>
-        <SectionHeader section="ABOUT" title="about" desc="Find out more about me!"/>
-        <About/>
         <SectionHeader section="PROJECTS" title="projects" desc="Here are some of my projects!"/>
         <Inline/>
+        <SectionHeader section="ABOUT" title="about" desc="Find out more about me!"/>
+        <About/>
         <Footer section="CONTACT"/>
     </div>
   );
