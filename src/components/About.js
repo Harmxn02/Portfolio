@@ -5,7 +5,7 @@ import geniuses from "../svg/geniuses.svg"
 
 export default function About() {
     return (
-        <div className="flex flex-wrap justify-center min-h-screen mt-12 mb-64 md:mt-36 gap-36 lg:gap-72">
+        <div className="flex flex-wrap justify-center min-h-screen mt-12 mb-64 md:mt-36 gap-36 lg:gap-72 mx-4">
             <div className="flex flex-col xl:flex-row-reverse justify-between items-center xl:gap-0">
                 <div className="text-gray-700 rounded-md shadow-2xl p-8 border-4 border-t-orange-500 max-w-xl h-fit space-y-4">
                     <h2 className="font-bold text-xl pb-4">Personal Experience</h2>
@@ -16,7 +16,7 @@ export default function About() {
                         <MaterialIconsReact icon="school" size="large"/>
                     </div> */}
                 </div>
-                <div className="w-4/6 mr-12">
+                <div className="w-4/6 mt-24 xl:mt-0 mr-12">
                     <img src={profile} alt="person showing their skills"></img>
                 </div>
             </div>
@@ -72,7 +72,7 @@ export default function About() {
                         <MaterialIconsReact icon="construction" size="large"/>
                     </div> */}
                 </div>
-                <div className="w-4/6">
+                <div className="w-4/6 ml-12">
                     <img src={geniuses} alt="two geniuses looking at each other"></img>
                 </div>
             
