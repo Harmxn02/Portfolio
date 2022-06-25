@@ -64,7 +64,7 @@ export default function About() {
 
                     <p className="pb-5 pt-5">If you'd like to find out even more, my resume is linked below.</p>
                     <div>
-                        <a className="text-white font-bold bg-purple-500 hover:bg-blue-600 rounded-lg p-2 " 
+                        <a className="text-white font-bold bg-purple-500 hover:bg-purple-600 rounded-lg p-2 " 
                         href="https://resume.io/r/SU1DQos8n" target="_blank" rel="noreferrer">Resume</a>
                     </div>
                     
