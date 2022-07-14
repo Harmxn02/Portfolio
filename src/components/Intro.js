@@ -4,7 +4,7 @@ import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import LOGO from "../logos/LOGO.png"
 import LOGO_NAME from "../logos/LOGO_NAME.png"
-import Banner from "./Banner"
+import Banner from "./unused/Banner"
 // import online_stats from "../svg/online_stats.svg"
 // import reminder from "../svg/reminder.svg"
 import experience from "../svg/experience_design.svg"
