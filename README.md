@@ -3,4 +3,4 @@
 #### (but feel free to just [check it out](https://harmanpsingh.netlify.app/) yourself 😉)
 
 
-![screenshot](./src/progress_photos/june-26.jpeg)
+![screenshot](./src/progress_photos/july-14.jpeg)
